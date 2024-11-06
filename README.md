@@ -43,7 +43,7 @@ Add options for exporting schedules in various formats like PDF or CSV.
 
 Getting Started
 Clone the repository:
-git clone <repository-url>
+git clone https://github.com/sofirij/Time-Scheduling.git
 
 Compile the project:
 javac Main.java
