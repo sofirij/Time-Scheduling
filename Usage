@@ -1,0 +1,269 @@
+How to use the scheduling system.
+
+When you run main.java instructions will be given to guide you on how to enter information. You do not have to worry about that because I will provide you with the prompts to test the software
+
+Firstly, we will check if the software gives you the information you need when there is no conflict in the schedules.
+When you run main.java copy and paste the information below into the terminal
+--------------------------------------------------------------------------------------------------------------------------
+Y
+CS101
+Introduction to Programming
+M 9:00AM-10:50AM
+Prof. Johnson
+Y
+CS202
+Data Structures
+M 11:00AM-12:50PM
+Dr. Taylor
+Y
+CS305
+Algorithms Lab
+M 1:00PM-2:50PM
+Prof. Patel
+Y
+CS210
+Discrete Math
+M 3:00PM-4:50PM
+Dr. Smith
+Y
+CS315
+Operating Systems
+T 9:00AM-10:50AM
+Dr. Lee
+Y
+CS111
+Intro to Java
+T 11:00AM-12:50PM
+Prof. Green
+Y
+CS220
+Database Systems
+T 1:00PM-2:50PM
+Dr. Wilson
+Y
+CS101
+Computer Architecture
+T 3:00PM-4:50PM
+Prof. Adams
+Y
+CS215
+Software Engineering
+W 9:00AM-10:50AM
+Dr. Davis
+Y
+CS330
+Networking Lab
+W 11:00AM-12:50PM
+Prof. Campbell
+Y
+CS250
+Artificial Intelligence
+W 1:00PM-2:50PM
+Dr. Thompson
+Y
+CS110
+Digital Logic
+W 3:00PM-4:50PM
+Prof. Lewis
+Y
+CS310
+Cybersecurity
+Th 9:00AM-10:50AM
+Dr. Reed
+Y
+CS205
+Human-Computer Interaction
+Th 11:00AM-12:50PM
+Prof. Hughes
+Y
+CS101
+Compiler Design
+Th 1:00PM-2:50PM
+Dr. Martin
+Y
+CS220
+Data Analytics
+Th 3:00PM-4:50PM
+Prof. Carter
+Y
+CS305
+Machine Learning
+F 9:00AM-10:50AM
+Dr. Young
+Y
+CS205
+Cloud Computing
+F 11:00AM-12:50PM
+Prof. Evans
+Y
+CS303
+Computer Vision
+F 1:00PM-2:50PM
+Dr. Bryant
+Y
+CS300
+Natural Language Processing
+F 3:00PM-4:50PM
+Prof. Rogers
+N
+
+Once you have done this you will be prompted to name the group
+Enter any name of your choice then press the “Enter” key.
+
+Once that is done you will be prompted to choose which courses you would like to enter into the group.
+There will be numbers beside each course and it will be entered to indicate which course you would like to enter into a group.
+There will be a prompt repeatedly asking for the course you would like to enter into the group. When you don’t want to enter any more courses feel free to enter “0” into the prompt.
+For testing the software, we would like to enter every course into the group. Feel free to copy and paste the information below.
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+0
+
+Once this is done every course that has been entered would be added to the group and the group will be printed. For this part there will be no conflict so all courses will be printed neatly.
+ 
+Secondly, we will test the software when there are conflicts in the courses. Once again run main.java and when prompted to enter courses copy and paste the  information below.
+
+Y
+CS101
+Introduction to Programming
+M 9:00AM-10:50AM
+Prof. Johnson
+Y
+CS202
+Data Structures
+M 9:30AM-11:20AM
+Dr. Taylor
+Y
+CS305
+Algorithms Lab
+M 10:00AM-11:50AM
+Prof. Patel
+Y
+CS210
+Discrete Math
+M 10:30AM-12:20PM
+Dr. Smith
+Y
+CS315
+Operating Systems
+T 9:00AM-10:50AM
+Dr. Lee
+Y
+CS111
+Intro to Java
+T 9:30AM-11:20AM
+Prof. Green
+Y
+CS220
+Database Systems
+T 10:00AM-11:50AM
+Dr. Wilson
+Y
+CS101
+Computer Architecture
+T 10:30AM-12:20PM
+Prof. Adams
+Y
+CS215
+Software Engineering
+W 9:00AM-10:50AM
+Dr. Davis
+Y
+CS330
+Networking Lab
+W 9:30AM-11:20AM
+Prof. Campbell
+Y
+CS250
+Artificial Intelligence
+W 10:00AM-11:50AM
+Dr. Thompson
+Y
+CS110
+Digital Logic
+W 10:30AM-12:20PM
+Prof. Lewis
+Y
+CS310
+Cybersecurity
+Th 9:00AM-10:50AM
+Dr. Reed
+Y
+CS205
+Human-Computer Interaction
+Th 9:30AM-11:20AM
+Prof. Hughes
+Y
+CS101
+Compiler Design
+Th 10:00AM-11:50AM
+Dr. Martin
+Y
+CS220
+Data Analytics
+Th 10:30AM-12:20PM
+Prof. Carter
+Y
+CS305
+Machine Learning
+F 9:00AM-10:50AM
+Dr. Young
+Y
+CS205
+Cloud Computing
+F 9:30AM-11:20AM
+Prof. Evans
+Y
+CS303
+Computer Vision
+F 10:00AM-11:50AM
+Dr. Bryant
+Y
+CS300
+Natural Language Processing
+F 10:30AM-12:20PM
+Prof. Rogers
+N
+Once this is done you will be prompted to enter the courses you would like to enter into the group and “0” to stop. Feel free to copy and paste the information below.
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+0
+
+Once this is done the group will be printed. This time the group consists of courses that conflict so only the conflicts will be shown.
