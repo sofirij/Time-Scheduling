@@ -1,4 +1,5 @@
 # Time-Scheduling Software
+## See usage for more instructions
 
 Overview
 
