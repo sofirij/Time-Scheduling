@@ -30,8 +30,8 @@ Here's a brief example of how to add and print a course schedule:
 
 java
 Group group = new Group("Sample Schedule");
-Course course1 = new Course("CS101", "Monday", "10:00AM", "11:00AM");
-Course course2 = new Course("CS102", "Monday", "11:30AM", "12:30PM");
+Course course1 = new Course("CS101", "Lab1", "F 10:00AM-11:00AM");
+Course course2 = new Course("CS102", "Tutorial", "F 11:30AM-"12:30PM");
 
 group.add(course1);
 group.add(course2);
