@@ -1,19 +1,21 @@
-public class Instructor
-{
+import java.io.Serializable;
+
+public class Instructor implements Serializable {
     private String name;
-    
-    public Instructor(String name)
-    {
+    private int num;
+
+    public Instructor(String name) {
         this.name = name;
     }
 
-    public String getName()
-    {
+    public String getName() {
         return this.name;
     }
 
-    public void setName(String name)
-    {
+    public void setName(String name) {
         this.name = name;
+    }
+
+    public void method() {
     }
 }
